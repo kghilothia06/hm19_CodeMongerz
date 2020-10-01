@@ -1,6 +1,6 @@
 from flask import Flask, render_template, url_for, flash, redirect, request
 from forms import RegistrationForm, LoginForm, GetMedicineForm
-app = Flask(__name__)
+app = Flask(__name__)#for user interface
 
 app.config['SECRET_KEY'] = '9de51b03208ed35d21fadfc384be03e1'
 
